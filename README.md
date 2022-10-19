@@ -1,12 +1,31 @@
 # Election_data
+
 Consolidated State, Local and Federal election data across the USA
 
-Goals:
+## Goals
+
 - A unified dataset for all elections across the USA
-- Dashboards to identify all elections where the winners have won with fewer than 50% of the vote
+- A simple tool to query that data to ask questions such as "all elections where the winners have won with fewer than 50% of the vote"
 
+## Tasks/Tools
 
-# Dataset Sources
+Python
+
+- Pandas
+- DataTable ?
+- Jupyter?
+
+Scraping
+Maybe an instance of CKAN for archiving the data? Probably best to store links/CSVs in the repo for now.
+Do we need a database/backend?
+What does our standardized format look like?
+
+## Importing
+
+Identify and download source
+Create parser python script to convert to our standardized format
+
+## Dataset Sources
 
 Alabama
 
